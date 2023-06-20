@@ -1,0 +1,38 @@
+* {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    font: 40px Tahoma;
+    white-space: nowrap;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    border-left:10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    height: 150px;
+    width: 90px; /*90 + 10 = 100*/
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+li:hover {
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+}
+
+li:last-child {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+}

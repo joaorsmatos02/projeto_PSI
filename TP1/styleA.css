@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font: 40px Tahoma;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+li{
+    border-top: 1px solid #687291;
+    height: 100px;
+    width: 100px;
+    background-color: #dfe1e7;
+}
+
+li:nth-child(even) {
+    background-color: #eeeff2;
+}
+
+li:last-child {
+    border:4px solid black;
+    background-color: #687291;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

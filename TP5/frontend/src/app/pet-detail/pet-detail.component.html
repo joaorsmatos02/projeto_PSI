@@ -1,0 +1,10 @@
+<h2>My Pets</h2>
+<div *ngIf="pet">
+    <h2>{{pet.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{pet._id}}</div>
+    <div>
+      <label for="pet-name">pet name: {{pet.name}}</label>
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+  </div>
+  

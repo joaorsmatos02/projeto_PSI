@@ -1,0 +1,3 @@
+mPFyAfkivzGYvBQV
+
+mongodb+srv://fc56292:<password>@cluster0.dtza9rt.mongodb.net/?retryWrites=true&w=majority
